@@ -1,0 +1,6 @@
+print("Welcome to BillCalculator!")
+total_amount = input("What was the total amount in $ ?")
+total_people_count = input("What was the total people count? ")
+ppp = round(int(total_amount)/int(total_people_count), 2)
+ppp = "{:.2f}".format(ppp)
+print(f"price for per person: ${ppp}")
